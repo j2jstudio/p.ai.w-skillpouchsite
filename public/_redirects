@@ -1,0 +1,2 @@
+# html_handling=none 只按文件路径匹配，/ 不会落到 index.html。
+/ /zh/index.html 302

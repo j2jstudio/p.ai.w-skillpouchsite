@@ -435,6 +435,17 @@ export function runQaSiteCheck(options = {}) {
   }
 
   // 4. Site-level SEO/GEO files: robots.txt, sitemap.xml, llms.txt (§11.4)
+  // 根路径在 html_handling=none 下不会改写成 index.html，必须由 _redirects 送到中文首页。
+  const redirectsPath = path.join(distDir, '_redirects');
+  if (!fs.existsSync(redirectsPath)) {
+    errors.push('[qa][11.4] Missing dist/_redirects');
+  } else {
+    const redirects = fs.readFileSync(redirectsPath, 'utf8');
+    if (!/^\/\s+\/zh\/index\.html\s+302\s*$/m.test(redirects)) {
+      errors.push('[qa][11.4] dist/_redirects must 302 / to /zh/index.html');
+    }
+  }
+
   const robotsPath = path.join(distDir, 'robots.txt');
   if (!fs.existsSync(robotsPath)) {
     errors.push('[qa][11.4] Missing dist/robots.txt');
