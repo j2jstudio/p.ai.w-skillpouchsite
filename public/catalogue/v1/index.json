@@ -1,0 +1,10 @@
+{
+  "catalogueUrl": "/catalogue/v1/releases/1/catalogue.json",
+  "catalogueVersion": "2026.11.0",
+  "currentReleaseSequence": 1,
+  "etagHint": "rel-1-2026.11.0-8c187715a9ee",
+  "schemaVersion": "1.0.0",
+  "sha256Url": "/catalogue/v1/releases/1/catalogue.json.sha256",
+  "sigUrl": "/catalogue/v1/releases/1/catalogue.sig",
+  "updatedAt": "2026-11-02T07:32:58.842Z"
+}

@@ -1,0 +1,328 @@
+{
+  "lang": "zh",
+  "htmlLang": "zh-Hans",
+  "ogLocale": "zh_CN",
+  "ogLocaleAlternate": "en_US",
+  "siteName": "SkillPouch",
+  "skipToContent": "跳到正文",
+  "header": {
+    "metaCatalogue": "精选目录",
+    "metaRelease": "2026.10 发布集",
+    "navAriaLabel": "八大目录主导航",
+    "mobileMenuLabel": "目录",
+    "langSwitchLabel": "English",
+    "langCurrentLabel": "简体中文"
+  },
+  "breadcrumb": {
+    "ariaLabel": "面包屑导航",
+    "home": "首页"
+  },
+  "footer": {
+    "statement": "SkillPouch · 精选 Agent Skills 策展目录（不按流行度排名）",
+    "licenseNote": "各技能许可证以 SPDX 与上游仓库全文为准；本站不做官方 Agent 认证。",
+    "langPrefix": "语言：",
+    "linksAriaLabel": "常规页面导航",
+    "links": {
+      "privacy": "隐私政策",
+      "terms": "使用协议",
+      "contact": "联系我们"
+    }
+  },
+  "home": {
+    "title": "SkillPouch 精选 Agent Skills",
+    "seoTitle": "SkillPouch 精选 Agent Skills · 策展目录与证据站",
+    "seoDescription": "浏览 SkillPouch 已确认的 8 大目录、16 项任务与 34 个精选 Agent Skills，核验阶段适配理由、上游来源与已知限制。",
+    "lede": "仅收录经策展复核确认的精选技能；按八大目录与工作任务分段浏览，逐项核验适配理由、公开来源与已知限制。本站不做流行度榜单，也不做官方 Agent 认证。",
+    "directoriesHeading": "按工作目录浏览",
+    "directoriesCountUnit": "项任务",
+    "skillsCountUnit": "个技能",
+    "searchHeading": "快速检索目录、任务或技能",
+    "searchLabel": "搜索目录、任务或技能标题",
+    "searchPlaceholder": "搜索目录、任务或技能……",
+    "searchStatusDefault": "输入关键词可筛选 8 个目录、16 项任务与 34 个精选技能。",
+    "searchStatusMatched": "找到 {count} 项匹配结果",
+    "searchEmpty": "未找到匹配项。请尝试其他目录、任务或技能名称。",
+    "searchKindDirectory": "目录",
+    "searchKindTask": "任务",
+    "searchKindSkill": "技能",
+    "curationHeading": "策展口径与许可声明",
+    "curationPoints": [
+      "同源策展：全站仅展示已确认准入的精选集合（8 目录 / 16 任务 / 34 去重技能），不手工维护第二套名单。",
+      "证据可核验：每个技能页均公开阶段适配说明、精确源码提交版本与上游仓库入口。",
+      "边界诚实：本站非官方 Agent 兼容认证；许可证义务（含 CC-BY-SA 署名与相同方式共享要求）以上游仓库声明为准。"
+    ]
+  },
+  "directory": {
+    "seoTitleTemplate": "{title}（{id}）· SkillPouch 精选目录",
+    "seoDescriptionTemplate": "查看 SkillPouch「{title}」目录下的 {taskCount} 项精选工作任务与阶段推荐技能。",
+    "tasksHeading": "包含任务",
+    "stagesPrefix": "三阶段：",
+    "skillCountLabel": "推荐技能 {count}",
+    "emptyTasks": "当前目录下暂无已准入任务。"
+  },
+  "task": {
+    "seoTitleTemplate": "{title}（{id}）· {directoryTitle} · SkillPouch",
+    "seoDescriptionTemplate": "按「{stages}」三阶段查看「{title}」的精选 Agent Skills、阶段适配说明与上游仓库链接。",
+    "parentDirectoryPrefix": "所属目录：",
+    "stageNavLabel": "阶段跳转",
+    "upstreamShort": "上游仓库",
+    "emptyStageSkills": "暂无合格推荐"
+  },
+  "skill": {
+    "seoTitleTemplate": "{title}（{name}）· SkillPouch 技能证据页",
+    "seoDescriptionFallbackTemplate": "核验 {name} 在 SkillPouch 中的适用阶段、来源仓库与已知限制。",
+    "backToTask": "返回所属任务",
+    "copySkillId": "复制 skillId",
+    "copiedSkillId": "已复制",
+    "sections": {
+      "summary": "简介",
+      "whyRecommended": "为何推荐",
+      "stagesBound": "适用阶段",
+      "evidence": "证据与来源",
+      "knownLimitations": "已知限制",
+      "meta": "标识与许可"
+    },
+    "zones": {
+      "identity": "基础信息",
+      "placedIn": "收录位置",
+      "why": "选择理由",
+      "whyHint": "SkillPouch 按工作阶段写下收录原因。",
+      "operate": "操作说明",
+      "operateHint": "在这些阶段使用该技能。点开阶段可回到任务页。",
+      "acquire": "取得与审阅",
+      "openStage": "查看此阶段",
+      "evidence": "核验来源",
+      "evidenceHint": "公开链接，便于你独立核对。",
+      "limits": "使用边界",
+      "specsHint": "许可证、复核日、仓库路径与稳定标识。"
+    },
+    "evidenceGroups": {
+      "upstream": "上游来源",
+      "review": "独立评测与复核",
+      "adoption": "采纳与实践",
+      "other": "其他公开资料"
+    },
+    "evidenceLabels": {
+      "upstreamDefault": "上游仓库",
+      "reviewDefault": "独立评测与复核",
+      "adoptionDefault": "采纳案例",
+      "otherDefault": "公开资料",
+      "verifiedOnTemplate": "核对于 {date}",
+      "synthesizedFootnote": "来自技能元数据"
+    },
+    "empty": {
+      "untitled": "未命名技能",
+      "summaryTitle": "简介撰写中",
+      "summaryDetail": "策展简介尚未发布，可先查看上游仓库。",
+      "whyRecommended": "推荐说明撰写中",
+      "stagesBound": "暂无阶段绑定",
+      "evidence": "暂无公开证据链接",
+      "knownLimitations": "暂无已登记限制",
+      "reviewedAt": "复核日未登记",
+      "supportedAgents": "技能未列出特定 Agent"
+    },
+    "ccBySaTemplate": "本技能采用 {licenseSpdx}。转载或衍生公开内容时，请保留原作者署名，并以相同方式共享。详情见上游许可证全文。",
+    "claims": {
+      "unverified": {
+        "badge": "未核实",
+        "description": "技能自述的 Agent 支持尚未经本站实测。"
+      },
+      "spot_checked": {
+        "badge": "抽检通过",
+        "description": "本站已对宣称 Agent 做过抽检；不代表全版本保证。"
+      },
+      "n/a": {
+        "badge": "不适用",
+        "description": "本技能不涉及特定 Agent 宣称，或无需声明。"
+      }
+    },
+    "metaLabels": {
+      "reviewedAt": "策展复核日",
+      "reviewedAtValueTemplate": "复核于 {date}",
+      "agentsClaim": "Agent 兼容声明",
+      "license": "许可证（SPDX）",
+      "sourceRepo": "来源仓库与路径",
+      "revision": "固定提交（Revision）",
+      "skillId": "稳定标识（skillId）"
+    },
+    "cta": {
+      "openUpstream": "打开上游仓库",
+      "installPlaceholder": "在 SkillPouch 安装（Coming soon）",
+      "installHint": "桌面端安装深链协议确定前保持占位，请先通过上游仓库审阅技能。"
+    }
+  },
+  "legal": {
+    "badge": "站点信息与合规说明",
+    "updatedAt": "最后更新：2026-10-31",
+    "relatedHeading": "相关页面",
+    "pages": {
+      "privacy": {
+        "title": "隐私政策",
+        "seoTitle": "隐私政策 · SkillPouch",
+        "seoDescription": "了解 SkillPouch 精选 Agent Skills 目录站与桌面端的数据处理边界、零账号追踪原则与外部链接说明。",
+        "lede": "SkillPouch 重视开发者与访问者的隐私。本页面说明 SkillPouch 精选 Agent Skills 静态目录站（skillpouch.tools.place）及桌面端应用的数据处理边界与第三方服务范围。",
+        "sections": [
+          {
+            "id": "data-collection",
+            "heading": "1. 我们收集的信息",
+            "paragraphs": [
+              "本站为纯静态公开目录与技能证据展示网站，不设用户注册、登录、评论或表单提交功能，不会主动要求您提供姓名、电话号码或通讯地址等个人身份信息。"
+            ],
+            "bullets": [
+              "基础访问日志：静态托管基础设施（CDN 或 Web 服务器）在响应网页请求时，可能按行业标准在短期安全日志中记录访问 IP、请求时间戳、HTTP 状态码与浏览器 User-Agent，仅用于防范恶意流量与排查服务故障。",
+              "主动邮件沟通：当您通过「联系我们」页面公布的电子邮箱主动发信时，我们仅在回复与处理您所咨询事项的必要范围内保存来信邮箱与内容。"
+            ]
+          },
+          {
+            "id": "cookies-and-local",
+            "heading": "2. Cookie 与本地处理",
+            "paragraphs": [
+              "本站不部署广告追踪 Cookie、跨站画像脚本或第三方商业行为分析像素。"
+            ],
+            "bullets": [
+              "主题自适应：页面明暗配色直接读取操作系统级 prefers-color-scheme 媒体查询，无需写入追踪型 Cookie。",
+              "本地即时检索：首页关键词筛选、任务阶段高亮及复制稳定标识（skillId）均在您的浏览器本地内存中完成，检索词不会上传至远程服务器。"
+            ]
+          },
+          {
+            "id": "third-party-links",
+            "heading": "3. 外部链接与第三方服务",
+            "paragraphs": [
+              "为保证策展证据可独立核验，本站包含指向第三方公开平台的外部链接与基础字体资源。"
+            ],
+            "bullets": [
+              "字体样式：页面通过 Google Fonts 加载 Geist 字体，并配置 referrerpolicy=\"no-referrer\" 以最小化来源页面信息传递。",
+              "上游代码仓库与公开参考：各技能证据页提供指向 GitHub 等上游源码仓库（固定提交版本）及独立评测文章的 https 链接。当您点击跳转至第三方网站后，相关访问行为受目标网站各自的隐私政策约束。"
+            ]
+          },
+          {
+            "id": "desktop-boundary",
+            "heading": "4. 桌面应用本地运行边界",
+            "paragraphs": [
+              "SkillPouch 原生桌面客户端在用户本地文件系统管理技能目录、软链接与锁文件，不会在未经用户明确操作的情况下后台上传本地工作区源码或私有配置。"
+            ],
+            "bullets": []
+          },
+          {
+            "id": "policy-updates",
+            "heading": "5. 政策更新与咨询方式",
+            "paragraphs": [
+              "如本隐私政策随站点功能调整而更新，我们将在本页同步发布修订版本并更新顶部日期。如有隐私相关疑问，请前往「联系我们」页面通过官方支持邮箱与我们联系。"
+            ],
+            "bullets": []
+          }
+        ]
+      },
+      "terms": {
+        "title": "使用协议",
+        "seoTitle": "使用协议 · SkillPouch",
+        "seoDescription": "查阅 SkillPouch 精选 Agent Skills 目录站的服务定位、开源许可证（SPDX / CC-BY-SA）合规要求与免责声明。",
+        "lede": "欢迎访问 SkillPouch 精选 Agent Skills 目录与证据站。浏览或使用本站内容即表示您已知悉并同意以下服务边界、开源许可证义务与免责条款。",
+        "sections": [
+          {
+            "id": "service-scope",
+            "heading": "1. 服务性质与定位边界",
+            "paragraphs": [
+              "本站面向开发者、产品团队与研究人员提供经人工策展复核的 Agent Skills 目录与证据查阅服务（覆盖 8 大目录、16 项三阶段任务及 34 个精选技能）。"
+            ],
+            "bullets": [
+              "非流行度榜单：本站仅呈现阶段适配理由、上游来源与已知限制，不按下载量或星标数进行商业排名。",
+              "非官方兼容性认证：站内关于 Agent 兼容状态的标注仅反映策展复核时的公开声明或抽检结果，不构成任何 AI Agent 厂商的官方认证或全版本保证。",
+              "配置源分离：本 HTML 网站仅供人类阅读与搜索引擎检索，不作为桌面端应用程序的签名运行时配置端点。"
+            ]
+          },
+          {
+            "id": "open-source-licenses",
+            "heading": "2. 上游技能著作权与开源许可证",
+            "paragraphs": [
+              "本站收录的各 Agent Skill 源码、提示词定义及相关文档权利均归其各自上游仓库原作者或权利人所有。"
+            ],
+            "bullets": [
+              "以 SPDX 与上游全文为准：每个技能证据页均标注对应的 SPDX 许可证标识（如 MIT、Apache-2.0、CC-BY-SA-4.0）及固定提交版本（Revision）链接，实际授权范围以上游仓库许可证全文为准。",
+              "CC-BY-SA 署名与相同方式共享义务：针对采用 CC-BY-SA 系列许可证的技能，您在转载、修改或分发衍生内容时，必须保留原作者署名并以相同许可证方式共享。"
+            ]
+          },
+          {
+            "id": "acceptable-use",
+            "heading": "3. 合理使用与安全审阅责任",
+            "paragraphs": [
+              "访问者应以合法、合理的方式浏览与引用本站公开信息，不得对本站基础设施实施恶意高频抓取、注入攻击或干扰正常访问的行为。"
+            ],
+            "bullets": [
+              "引入前审阅：上游开源技能由第三方社区维护。在将任何技能导入本地 Agent 环境或生产工作流前，您应自行结合技能证据页披露的「已知限制」与固定提交源码完成安全与合规审阅。"
+            ]
+          },
+          {
+            "id": "disclaimer",
+            "heading": "4. 免责声明与责任限制",
+            "paragraphs": [
+              "本站所载策展摘要、阶段推荐理由与外部证据链接均按「现状（AS IS）」提供。SkillPouch 不对第三方上游仓库的持续可用性、输出结果准确性或特定业务场景适用性作明示或暗示担保，亦不对因使用第三方开源技能产生的直接或间接损失承担责任。"
+            ],
+            "bullets": []
+          }
+        ]
+      },
+      "contact": {
+        "title": "联系我们",
+        "seoTitle": "联系我们 · SkillPouch",
+        "seoDescription": "联系 SkillPouch 团队：提交精选 Agent Skills 策展勘误、许可证与署名核实、死链反馈或产品咨询。",
+        "lede": "无论您希望反馈技能证据页的策展勘误、核实开源许可证与作者署名，还是咨询 SkillPouch 产品相关问题，均可通过以下公开渠道与我们取得联系。",
+        "sections": [
+          {
+            "id": "channels",
+            "heading": "1. 官方联系渠道",
+            "paragraphs": [
+              "请根据您的具体事项选择对应的联系邮箱，我们通常会在 3 至 5 个工作日内审阅并回复："
+            ],
+            "bullets": [
+              "策展反馈与常规支持：support@skillpouch.tools.place（适用于技能阶段适配建议、死链报告、双语翻译勘误及站点使用问题）",
+              "许可证、署名与合规事务：legal@skillpouch.tools.place（适用于上游仓库作者更新署名、SPDX 许可证核实或权利人通知）"
+            ],
+            "contactMeta": [
+              {
+                "label": "常规支持邮箱",
+                "value": "support@skillpouch.tools.place",
+                "href": "mailto:support@skillpouch.tools.place"
+              },
+              {
+                "label": "合规与版权邮箱",
+                "value": "legal@skillpouch.tools.place",
+                "href": "mailto:legal@skillpouch.tools.place"
+              },
+              {
+                "label": "站点公开域名",
+                "value": "https://skillpouch.tools.place",
+                "href": "/zh/index.html"
+              },
+              {
+                "label": "许可与服务条款",
+                "value": "使用协议（SPDX / CC-BY-SA）",
+                "href": "/zh/terms.html"
+              }
+            ]
+          },
+          {
+            "id": "curation-correction",
+            "heading": "2. 提交策展勘误的建议格式",
+            "paragraphs": [
+              "为帮助我们快速定位并复核您反馈的技能条目，建议在邮件中附上以下信息："
+            ],
+            "bullets": [
+              "目标技能的稳定标识（skillId，可在任意技能证据页顶部一键复制）或对应的页面 URL。",
+              "涉及的任务阶段编号（例如 T01.s1 ~ T16.s3）或具体章节（简介、为何推荐、已知限制、证据来源）。",
+              "可供公开核验的上游 Git 提交哈希（40 位 SHA）或公开文档链接。"
+            ]
+          },
+          {
+            "id": "faq-notes",
+            "heading": "3. 沟通边界说明",
+            "paragraphs": [
+              "SkillPouch 坚持客观、可核验的同源策展标准，不接受任何形式的商业付费收录或排名干预。若您是已收录技能的上游维护者并发布了重要安全更新或许可证变更，欢迎随时来信告知。"
+            ],
+            "bullets": []
+          }
+        ]
+      }
+    }
+  }
+}

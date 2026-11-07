@@ -1,0 +1,192 @@
+{
+  "directories": [
+    {
+      "id": "D01",
+      "title": { "zh": "文档与沟通", "en": "Documents & Communication" },
+      "taskIds": ["T01", "T02"]
+    },
+    {
+      "id": "D02",
+      "title": { "zh": "资料研究", "en": "Research & Intelligence" },
+      "taskIds": ["T03", "T04"]
+    },
+    {
+      "id": "D03",
+      "title": { "zh": "表格与数据", "en": "Spreadsheets & Data" },
+      "taskIds": ["T05", "T06"]
+    },
+    {
+      "id": "D04",
+      "title": { "zh": "学习与教学", "en": "Learning & Teaching" },
+      "taskIds": ["T07", "T08"]
+    },
+    {
+      "id": "D05",
+      "title": { "zh": "产品规划", "en": "Product Planning" },
+      "taskIds": ["T09", "T10"]
+    },
+    {
+      "id": "D06",
+      "title": { "zh": "交互与界面设计", "en": "Interaction & UI Design" },
+      "taskIds": ["T11", "T12"]
+    },
+    {
+      "id": "D07",
+      "title": { "zh": "软件研发", "en": "Software Development" },
+      "taskIds": ["T13", "T14"]
+    },
+    {
+      "id": "D08",
+      "title": { "zh": "营销与经营", "en": "Marketing & Operations" },
+      "taskIds": ["T15", "T16"]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "T01",
+      "directoryId": "D01",
+      "title": { "zh": "邮件与通知", "en": "Email & Notices" },
+      "stageIds": ["T01.s1", "T01.s2", "T01.s3"]
+    },
+    {
+      "id": "T02",
+      "directoryId": "D01",
+      "title": { "zh": "报告与汇报", "en": "Reports & Briefings" },
+      "stageIds": ["T02.s1", "T02.s2", "T02.s3"]
+    },
+    {
+      "id": "T03",
+      "directoryId": "D02",
+      "title": { "zh": "主题调研", "en": "Topic Research" },
+      "stageIds": ["T03.s1", "T03.s2", "T03.s3"]
+    },
+    {
+      "id": "T04",
+      "directoryId": "D02",
+      "title": { "zh": "方案比较", "en": "Option Comparison" },
+      "stageIds": ["T04.s1", "T04.s2", "T04.s3"]
+    },
+    {
+      "id": "T05",
+      "directoryId": "D03",
+      "title": { "zh": "表格整理", "en": "Spreadsheet Cleanup" },
+      "stageIds": ["T05.s1", "T05.s2", "T05.s3"]
+    },
+    {
+      "id": "T06",
+      "directoryId": "D03",
+      "title": { "zh": "数据分析与报表", "en": "Data Analysis & Reporting" },
+      "stageIds": ["T06.s1", "T06.s2", "T06.s3"]
+    },
+    {
+      "id": "T07",
+      "directoryId": "D04",
+      "title": { "zh": "备课与培训", "en": "Lesson Prep & Training" },
+      "stageIds": ["T07.s1", "T07.s2", "T07.s3"]
+    },
+    {
+      "id": "T08",
+      "directoryId": "D04",
+      "title": { "zh": "学习与练习材料", "en": "Learning & Practice Materials" },
+      "stageIds": ["T08.s1", "T08.s2", "T08.s3"]
+    },
+    {
+      "id": "T09",
+      "directoryId": "D05",
+      "title": { "zh": "用户研究", "en": "User Research" },
+      "stageIds": ["T09.s1", "T09.s2", "T09.s3"]
+    },
+    {
+      "id": "T10",
+      "directoryId": "D05",
+      "title": { "zh": "需求定义", "en": "Requirements Definition" },
+      "stageIds": ["T10.s1", "T10.s2", "T10.s3"]
+    },
+    {
+      "id": "T11",
+      "directoryId": "D06",
+      "title": { "zh": "界面方案", "en": "Interface Concepts" },
+      "stageIds": ["T11.s1", "T11.s2", "T11.s3"]
+    },
+    {
+      "id": "T12",
+      "directoryId": "D06",
+      "title": { "zh": "界面文案", "en": "Interface Copy" },
+      "stageIds": ["T12.s1", "T12.s2", "T12.s3"]
+    },
+    {
+      "id": "T13",
+      "directoryId": "D07",
+      "title": { "zh": "功能开发", "en": "Feature Development" },
+      "stageIds": ["T13.s1", "T13.s2", "T13.s3"]
+    },
+    {
+      "id": "T14",
+      "directoryId": "D07",
+      "title": { "zh": "问题修复", "en": "Bug Fixing" },
+      "stageIds": ["T14.s1", "T14.s2", "T14.s3"]
+    },
+    {
+      "id": "T15",
+      "directoryId": "D08",
+      "title": { "zh": "营销策划", "en": "Marketing Planning" },
+      "stageIds": ["T15.s1", "T15.s2", "T15.s3"]
+    },
+    {
+      "id": "T16",
+      "directoryId": "D08",
+      "title": { "zh": "经营复盘", "en": "Business Review" },
+      "stageIds": ["T16.s1", "T16.s2", "T16.s3"]
+    }
+  ],
+  "stages": {
+    "T01.s1": { "zh": "明确对象与目的", "en": "Clarify audience & purpose" },
+    "T01.s2": { "zh": "起草内容", "en": "Draft the content" },
+    "T01.s3": { "zh": "修改核对", "en": "Revise & verify" },
+    "T02.s1": { "zh": "整理材料", "en": "Organize materials" },
+    "T02.s2": { "zh": "组织与成稿", "en": "Structure & draft" },
+    "T02.s3": { "zh": "检查交付", "en": "Check before delivery" },
+    "T03.s1": { "zh": "界定问题", "en": "Frame the question" },
+    "T03.s2": { "zh": "搜集核实", "en": "Gather & verify" },
+    "T03.s3": { "zh": "综合结论", "en": "Synthesize findings" },
+    "T04.s1": { "zh": "确定标准", "en": "Set criteria" },
+    "T04.s2": { "zh": "比较证据", "en": "Compare evidence" },
+    "T04.s3": { "zh": "做出取舍", "en": "Decide & trade off" },
+    "T05.s1": { "zh": "检查数据", "en": "Inspect data" },
+    "T05.s2": { "zh": "清洗规范", "en": "Clean & normalize" },
+    "T05.s3": { "zh": "校验交付", "en": "Validate delivery" },
+    "T06.s1": { "zh": "明确口径", "en": "Define metrics" },
+    "T06.s2": { "zh": "分析计算", "en": "Analyze & compute" },
+    "T06.s3": { "zh": "呈现核验", "en": "Present & verify" },
+    "T07.s1": { "zh": "确定教学目标", "en": "Set learning goals" },
+    "T07.s2": { "zh": "组织课程材料", "en": "Organize course materials" },
+    "T07.s3": { "zh": "设计练习与检查", "en": "Design practice & checks" },
+    "T08.s1": { "zh": "梳理知识", "en": "Map knowledge" },
+    "T08.s2": { "zh": "编排学习材料", "en": "Arrange learning materials" },
+    "T08.s3": { "zh": "编制练习与解析", "en": "Build drills & keys" },
+    "T09.s1": { "zh": "准备研究", "en": "Prepare research" },
+    "T09.s2": { "zh": "分析材料", "en": "Analyze materials" },
+    "T09.s3": { "zh": "形成结论", "en": "Form conclusions" },
+    "T10.s1": { "zh": "澄清问题与范围", "en": "Clarify problem & scope" },
+    "T10.s2": { "zh": "定义需求", "en": "Define requirements" },
+    "T10.s3": { "zh": "核对验收", "en": "Align acceptance" },
+    "T11.s1": { "zh": "梳理用户流程", "en": "Map user flows" },
+    "T11.s2": { "zh": "探索界面方案", "en": "Explore UI directions" },
+    "T11.s3": { "zh": "检查体验", "en": "Review experience" },
+    "T12.s1": { "zh": "明确语气与场景", "en": "Set tone & scenarios" },
+    "T12.s2": { "zh": "编写文案", "en": "Write UI copy" },
+    "T12.s3": { "zh": "检查一致性", "en": "Check consistency" },
+    "T13.s1": { "zh": "设计与拆解", "en": "Design & decompose" },
+    "T13.s2": { "zh": "实现与测试", "en": "Implement & test" },
+    "T13.s3": { "zh": "评审与交付", "en": "Review & ship notes" },
+    "T14.s1": { "zh": "复现与定位", "en": "Reproduce & locate" },
+    "T14.s2": { "zh": "修复与验证", "en": "Fix & verify" },
+    "T14.s3": { "zh": "回归与检查", "en": "Regress & check" },
+    "T15.s1": { "zh": "明确对象与目标", "en": "Clarify audience & goals" },
+    "T15.s2": { "zh": "制定定位与渠道", "en": "Set positioning & channels" },
+    "T15.s3": { "zh": "编排执行计划", "en": "Sequence the plan" },
+    "T16.s1": { "zh": "整理指标", "en": "Organize metrics" },
+    "T16.s2": { "zh": "分析变化与问题", "en": "Analyze changes & issues" },
+    "T16.s3": { "zh": "制定改进行动", "en": "Plan improvements" }
+  }
+}

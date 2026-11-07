@@ -1,0 +1,327 @@
+{
+  "lang": "en",
+  "htmlLang": "en",
+  "ogLocale": "en_US",
+  "ogLocaleAlternate": "zh_CN",
+  "siteName": "SkillPouch",
+  "skipToContent": "Skip to content",
+  "header": {
+    "metaCatalogue": "Curated directories",
+    "metaRelease": "2026.10 release",
+    "navAriaLabel": "Primary directory navigation",
+    "mobileMenuLabel": "Directories",
+    "langSwitchLabel": "简体中文",
+    "langCurrentLabel": "English"
+  },
+  "breadcrumb": {
+    "ariaLabel": "Breadcrumb",
+    "home": "Home"
+  },
+  "footer": {
+    "statement": "SkillPouch · Curated Agent skills directory (not a popularity ranking)",
+    "licenseNote": "Skill licenses follow SPDX identifiers and upstream repository terms; this site is not an official Agent certification.",
+    "linksAriaLabel": "Site policy and contact navigation",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use",
+      "contact": "Contact Us"
+    }
+  },
+  "home": {
+    "title": "SkillPouch curated Agent skills",
+    "seoTitle": "SkillPouch curated Agent skills · Directory & evidence",
+    "seoDescription": "Browse 8 curated directories, 16 tasks, and 34 selected Agent skills in SkillPouch with stage fit rationale, upstream sources, and known limitations.",
+    "lede": "Only reviewed and selected skills enter this catalogue. Browse by directory and three-stage workflow task to inspect stage fit rationale, pinned upstream commits, and known limitations. Not a popularity leaderboard and not an official Agent certification.",
+    "directoriesHeading": "Browse by directory",
+    "directoriesCountUnit": "tasks",
+    "skillsCountUnit": "skills",
+    "searchHeading": "Filter directories, tasks, or skills",
+    "searchLabel": "Search directory, task, or skill titles",
+    "searchPlaceholder": "Search directories, tasks, or skills...",
+    "searchStatusDefault": "Type a keyword to filter across 8 directories, 16 tasks, and 34 curated skills.",
+    "searchStatusMatched": "{count} matching items",
+    "searchEmpty": "No matches found. Try another directory, task, or skill title.",
+    "searchKindDirectory": "Directory",
+    "searchKindTask": "Task",
+    "searchKindSkill": "Skill",
+    "curationHeading": "Curation scope and license notice",
+    "curationPoints": [
+      "Single curated source: every page is generated from the confirmed release set (8 directories, 16 tasks, 34 deduplicated skills) without a second manual list.",
+      "Verifiable evidence: each skill page publishes stage-specific rationale, pinned git revision, and direct upstream repository links.",
+      "Explicit boundaries: SkillPouch does not issue official Agent certifications; license obligations (including CC-BY-SA attribution and share-alike terms) follow upstream declarations."
+    ]
+  },
+  "directory": {
+    "seoTitleTemplate": "{title} ({id}) · SkillPouch curated directory",
+    "seoDescriptionTemplate": "Explore {taskCount} curated workflow tasks and stage-matched skills under {title} in SkillPouch.",
+    "tasksHeading": "Workflow tasks",
+    "stagesPrefix": "Stages: ",
+    "skillCountLabel": "{count} curated skills",
+    "emptyTasks": "No curated tasks are published in this directory."
+  },
+  "task": {
+    "seoTitleTemplate": "{title} ({id}) · {directoryTitle} · SkillPouch",
+    "seoDescriptionTemplate": "Inspect stage-by-stage Agent skill recommendations ({stages}) for {title} with upstream links and caveats.",
+    "parentDirectoryPrefix": "Directory: ",
+    "stageNavLabel": "Jump to stage",
+    "upstreamShort": "Upstream",
+    "emptyStageSkills": "No qualified recommendation available"
+  },
+  "skill": {
+    "seoTitleTemplate": "{title} ({name}) · SkillPouch skill evidence",
+    "seoDescriptionFallbackTemplate": "Review stage fit, pinned upstream source, and known limitations for {name} on SkillPouch.",
+    "backToTask": "Back to task",
+    "copySkillId": "Copy skillId",
+    "copiedSkillId": "Copied",
+    "sections": {
+      "summary": "Summary",
+      "whyRecommended": "Why recommended",
+      "stagesBound": "Applicable stages",
+      "evidence": "Evidence & sources",
+      "knownLimitations": "Known limitations",
+      "meta": "Identity and license"
+    },
+    "zones": {
+      "identity": "Essentials",
+      "placedIn": "Listed under",
+      "why": "Why we picked it",
+      "whyHint": "SkillPouch records why this skill was curated, stage by stage.",
+      "operate": "How to use",
+      "operateHint": "Use it in these workflow stages. Open a stage to return to its task.",
+      "acquire": "Get and review",
+      "openStage": "Open this stage",
+      "evidence": "Check the sources",
+      "evidenceHint": "Public links you can open and verify on your own.",
+      "limits": "Boundaries",
+      "specsHint": "License, review date, repository path, and stable identifier."
+    },
+    "evidenceGroups": {
+      "upstream": "Upstream source",
+      "review": "Independent reviews",
+      "adoption": "Adoption & field notes",
+      "other": "Other public references"
+    },
+    "evidenceLabels": {
+      "upstreamDefault": "Upstream repository",
+      "reviewDefault": "Independent review",
+      "adoptionDefault": "Adoption reference",
+      "otherDefault": "Public reference",
+      "verifiedOnTemplate": "Verified on {date}",
+      "synthesizedFootnote": "Derived from skill metadata"
+    },
+    "empty": {
+      "untitled": "Untitled skill",
+      "summaryTitle": "English copy pending",
+      "summaryDetail": "Curated English summary is pending publication. Inspect the upstream repository directly.",
+      "whyRecommended": "English copy pending",
+      "stagesBound": "No stage bindings recorded",
+      "evidence": "No public evidence links recorded",
+      "knownLimitations": "English copy pending",
+      "reviewedAt": "Review date not recorded",
+      "supportedAgents": "No specific agents listed by upstream"
+    },
+    "ccBySaTemplate": "This skill uses {licenseSpdx}: when republishing or deriving public content, retain original author attribution and share alike. See the upstream license for full terms.",
+    "claims": {
+      "unverified": {
+        "badge": "Unverified",
+        "description": "Agent compatibility stated by upstream has not been empirically verified by SkillPouch."
+      },
+      "spot_checked": {
+        "badge": "Spot-checked",
+        "description": "SkillPouch spot-checked stated Agent support; this does not guarantee every version."
+      },
+      "n/a": {
+        "badge": "Not applicable",
+        "description": "This skill makes no specific Agent claim or requires none."
+      }
+    },
+    "metaLabels": {
+      "reviewedAt": "Curation review date",
+      "reviewedAtValueTemplate": "Reviewed on {date}",
+      "agentsClaim": "Agent compatibility claim",
+      "license": "License (SPDX)",
+      "sourceRepo": "Repository & subpath",
+      "revision": "Pinned commit (revision)",
+      "skillId": "Stable identifier (skillId)"
+    },
+    "cta": {
+      "openUpstream": "Open upstream repository",
+      "installPlaceholder": "Install in SkillPouch (Coming soon)",
+      "installHint": "App deep-link installation is coming soon. Open the upstream repository to inspect the skill today."
+    }
+  },
+  "legal": {
+    "badge": "Site Policy & Information",
+    "updatedAt": "Last updated: 2026-10-31",
+    "relatedHeading": "Related pages",
+    "pages": {
+      "privacy": {
+        "title": "Privacy Policy",
+        "seoTitle": "Privacy Policy · SkillPouch",
+        "seoDescription": "Learn how SkillPouch handles data across the curated Agent skills directory site and desktop app, with zero account tracking and clear external link boundaries.",
+        "lede": "SkillPouch respects developer and visitor privacy. This policy explains the data-handling boundaries and third-party service scope for the SkillPouch curated Agent skills website (skillpouch.tools.place) and desktop application.",
+        "sections": [
+          {
+            "id": "data-collection",
+            "heading": "1. Information We Collect",
+            "paragraphs": [
+              "This website is a purely static public directory and skill evidence reference. It does not offer user registration, login, comments, or web forms, and we do not ask visitors to submit personal identifiers such as names, phone numbers, or mailing addresses."
+            ],
+            "bullets": [
+              "Standard access logs: Static hosting infrastructure (CDN or web servers) may briefly record request IP addresses, timestamps, HTTP status codes, and browser User-Agent strings in standard operational logs solely for security protection and fault diagnosis.",
+              "Direct email inquiries: When you voluntarily email us via the addresses published on the Contact Us page, we retain your email address and message content only as needed to respond to and resolve your inquiry."
+            ]
+          },
+          {
+            "id": "cookies-and-local",
+            "heading": "2. Cookies & Local Browser Processing",
+            "paragraphs": [
+              "We do not deploy advertising cookies, cross-site profiling scripts, or third-party behavioral tracking pixels."
+            ],
+            "bullets": [
+              "Implicit OS theme adaptation: Light and dark appearance follows your operating system's prefers-color-scheme media query directly without storing tracking cookies.",
+              "Client-side filtering: Homepage keyword search, stage highlight parameters, and skillId clipboard copying run entirely in local browser memory; search queries are never transmitted to a backend server."
+            ]
+          },
+          {
+            "id": "third-party-links",
+            "heading": "3. External Links & Third-Party Services",
+            "paragraphs": [
+              "To keep curation evidence independently verifiable, pages include external links to public repositories and load web font stylesheets."
+            ],
+            "bullets": [
+              "Typography assets: Pages load Geist font stylesheets from Google Fonts with referrerpolicy=\"no-referrer\" to minimize referrer data transmission.",
+              "Upstream repositories & public references: Skill evidence pages link via https to pinned GitHub commits and public reviews. Once you follow an external link, your interaction is governed by that third-party platform's own privacy policy."
+            ]
+          },
+          {
+            "id": "desktop-boundary",
+            "heading": "4. Desktop Application Local Boundary",
+            "paragraphs": [
+              "The native SkillPouch macOS application manages skill directories, symlinks, and lockfiles on your local filesystem and does not upload local workspace source code or private repository contents without explicit user action."
+            ],
+            "bullets": []
+          },
+          {
+            "id": "policy-updates",
+            "heading": "5. Policy Updates & Contact",
+            "paragraphs": [
+              "When this Privacy Policy is updated to reflect site or product changes, we will publish the revised text on this page and update the revision date above. For privacy questions, please reach out through our Contact Us page."
+            ],
+            "bullets": []
+          }
+        ]
+      },
+      "terms": {
+        "title": "Terms of Use",
+        "seoTitle": "Terms of Use · SkillPouch",
+        "seoDescription": "Review the service scope, open-source license obligations (SPDX and CC-BY-SA), and disclaimers for the SkillPouch curated Agent skills directory.",
+        "lede": "Welcome to the SkillPouch curated Agent skills directory and evidence site. By accessing or using this website, you acknowledge and agree to the service boundaries, open-source license obligations, and disclaimers below.",
+        "sections": [
+          {
+            "id": "service-scope",
+            "heading": "1. Service Scope & Positioning",
+            "paragraphs": [
+              "This website provides a human-reviewed reference catalogue of Agent skills organized across 8 directories, 16 three-stage workflow tasks, and 34 selected skills."
+            ],
+            "bullets": [
+              "Not a popularity leaderboard: Pages document stage fit rationale, pinned upstream commits, and known limitations rather than download or star rankings.",
+              "No official Agent certification: Compatibility status badges reflect upstream statements or spot-checks at the time of curation review and do not constitute official vendor certification or version-wide guarantees.",
+              "Separated from app configuration endpoints: This HTML site serves human readers and search engines; it is never used as the signed runtime configuration endpoint for the SkillPouch desktop app."
+            ]
+          },
+          {
+            "id": "open-source-licenses",
+            "heading": "2. Upstream Copyrights & Open-Source Licenses",
+            "paragraphs": [
+              "Source code, prompt templates, and accompanying assets for each listed Agent skill remain the intellectual property of their respective upstream authors and rightsholders."
+            ],
+            "bullets": [
+              "Governed by SPDX & upstream license texts: Every skill evidence page displays an SPDX identifier (such as MIT, Apache-2.0, or CC-BY-SA-4.0) alongside a pinned git revision link. Actual usage rights are governed by the full license text in the upstream repository.",
+              "CC-BY-SA attribution & share-alike obligations: When republishing, adapting, or redistributing skills licensed under CC-BY-SA, you must retain original author attribution and distribute derivatives under the same license."
+            ]
+          },
+          {
+            "id": "acceptable-use",
+            "heading": "3. Acceptable Use & Pre-Adoption Review",
+            "paragraphs": [
+              "Visitors must access and cite public directory information lawfully and must not subject the site infrastructure to abusive automated scraping, injection attacks, or service disruption."
+            ],
+            "bullets": [
+              "Pre-adoption inspection: Curated skills originate from third-party open-source repositories. Before integrating any skill into a local Agent environment or production workflow, you are responsible for inspecting the pinned commit source and known limitations."
+            ]
+          },
+          {
+            "id": "disclaimer",
+            "heading": "4. Disclaimer of Warranties & Limitation of Liability",
+            "paragraphs": [
+              "All curation summaries, stage fit notes, and external evidence links on this site are provided \"AS IS\" without warranties of any kind, express or implied. SkillPouch is not liable for upstream repository availability, output accuracy, or any direct or indirect damages arising from the use of third-party open-source skills."
+            ],
+            "bullets": []
+          }
+        ]
+      },
+      "contact": {
+        "title": "Contact Us",
+        "seoTitle": "Contact Us · SkillPouch",
+        "seoDescription": "Contact the SkillPouch team for curation errata, open-source license and attribution verification, broken link reports, or product inquiries.",
+        "lede": "Whether you want to report curation errata on a skill evidence page, verify open-source license attribution, flag a broken link, or ask about SkillPouch, you can reach our team through the channels below.",
+        "sections": [
+          {
+            "id": "channels",
+            "heading": "1. Official Contact Channels",
+            "paragraphs": [
+              "Please choose the appropriate email address for your inquiry. We typically review and respond within 3 to 5 business days:"
+            ],
+            "bullets": [
+              "Curation feedback & general support: support@skillpouch.tools.place (stage fit feedback, broken links, bilingual copy corrections, and general site questions)",
+              "License, attribution & legal inquiries: legal@skillpouch.tools.place (upstream author attribution updates, SPDX license verification, or rightsholder notices)"
+            ],
+            "contactMeta": [
+              {
+                "label": "General support email",
+                "value": "support@skillpouch.tools.place",
+                "href": "mailto:support@skillpouch.tools.place"
+              },
+              {
+                "label": "Legal & attribution email",
+                "value": "legal@skillpouch.tools.place",
+                "href": "mailto:legal@skillpouch.tools.place"
+              },
+              {
+                "label": "Public site origin",
+                "value": "https://skillpouch.tools.place",
+                "href": "/en/index.html"
+              },
+              {
+                "label": "License & service terms",
+                "value": "Terms of Use (SPDX / CC-BY-SA)",
+                "href": "/en/terms.html"
+              }
+            ]
+          },
+          {
+            "id": "curation-correction",
+            "heading": "2. How to Submit Curation Errata",
+            "paragraphs": [
+              "To help us verify and update a skill entry quickly, please include the following details in your message:"
+            ],
+            "bullets": [
+              "The skill's stable identifier (skillId, which can be copied from the header of any skill evidence page) or its page URL.",
+              "The relevant workflow stage code (for example, T01.s1 through T16.s3) or evidence section (Summary, Why recommended, Known limitations, Evidence & sources).",
+              "A publicly verifiable upstream Git commit SHA (40-character hash) or public documentation URL."
+            ]
+          },
+          {
+            "id": "faq-notes",
+            "heading": "3. Communication Scope",
+            "paragraphs": [
+              "SkillPouch maintains an objective, single-source curation process and does not accept paid placements or sponsored rankings. If you are an upstream maintainer of a listed skill and have published a critical security fix or license update, please let us know anytime."
+            ],
+            "bullets": []
+          }
+        ]
+      }
+    }
+  }
+}
