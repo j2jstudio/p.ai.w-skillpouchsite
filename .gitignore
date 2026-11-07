@@ -3,3 +3,5 @@ dist/
 .generated/
 *.log
 .DS_Store
+.wrangler/
+.dev.vars*
