@@ -1,6 +1,6 @@
 # SkillPouch
 
-> SkillPouch publishes a curated, evidence-backed Agent skills directory organized across 8 directories, 16 three-stage workflow tasks, and 34 deduplicated selected skills. Pages document stage fit rationale, pinned git revisions, SPDX licenses, and known limitations. This website is not a popularity ranking, does not issue official Agent compatibility certifications, and is separate from the SkillPouch desktop application's signed configuration endpoint.
+> SkillPouch publishes a curated, evidence-backed Agent skills directory organized across 8 directories, 16 three-stage workflow tasks, and 38 deduplicated selected skills. Pages document stage fit rationale, pinned git revisions, SPDX licenses, and known limitations. This website is not a popularity ranking, does not issue official Agent compatibility certifications, and is separate from the SkillPouch desktop application's signed configuration endpoint.
 
 ## Entry Points
 
@@ -22,7 +22,7 @@
 - [D07 · Software Development / 软件研发](https://skillpouch.tools.place/en/directories/D07.html): 2 tasks, 6 curated skills ([zh-Hans](https://skillpouch.tools.place/zh/directories/D07.html))
 - [D08 · Marketing & Operations / 营销与经营](https://skillpouch.tools.place/en/directories/D08.html): 2 tasks, 1 curated skill ([zh-Hans](https://skillpouch.tools.place/zh/directories/D08.html))
 
-## Selected Agent Skills (34)
+## Selected Agent Skills (38)
 
 - [Email Drafter (email-drafter)](https://skillpouch.tools.place/en/skills/claude-office-skills--skills--email-drafter.html) | [中文: 邮件起草助手](https://skillpouch.tools.place/zh/skills/claude-office-skills--skills--email-drafter.html): Draft professional emails or notices from recipient, purpose, and key facts—covering follow-ups, requests, polite declines, and apologies. Input is a scenario brief plus facts; output includes subject, body, and a clear ask. Suited to admin, retail, and procurement outbound writing. [SPDX: MIT; Stages: T01.s1; Upstream: https://github.com/claude-office-skills/skills/tree/9c4c7d5cd2813a8936bf2c9fdb174ea883b85a11/email-drafter]
 - [Internal Comms Writer (internal-comms)](https://skillpouch.tools.place/en/skills/anthropics--skills--internal-comms.html) | [中文: 内部沟通写作](https://skillpouch.tools.place/zh/skills/anthropics--skills--internal-comms.html): Write internal updates in common formats—status notes, weekly reports, FAQs, incident briefs, and leadership updates. Input is the comms type and fact list; output is a structured draft ready for review. Suited to teams that need consistent internal voice. [SPDX: Apache-2.0; Stages: T01.s2; Upstream: https://github.com/anthropics/skills/tree/dbd4588f9e1033efb41dad4bef2f7947c8993d44/skills/internal-comms]

@@ -189,11 +189,11 @@ test('appends mandatory CC-BY-SA notice when missing and marks EN pending withou
   }
 });
 
-test('throws when ingested counts do not match expected 8/16/48/34 contract', () => {
+test('throws when ingested counts do not match the expected 8/16/48/38 contract', () => {
   const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'sp-ingest-counts-'));
   try {
     const opts = createMiniFixture(tmpDir);
-    // Default expectedCounts is 8/16/48/34, so 1/1/3/1 fixture must fail when using default counts
+    // Default expectedCounts is 8/16/48/38, so the 1/1/3/1 fixture must fail when using default counts
     assert.throws(
       () =>
         ingestSiteData({
@@ -208,7 +208,7 @@ test('throws when ingested counts do not match expected 8/16/48/34 contract', ()
       () =>
         ingestSiteData({
           ...opts,
-          expectedCounts: { directories: 1, tasks: 1, stages: 3, skills: 34 },
+          expectedCounts: { directories: 1, tasks: 1, stages: 3, skills: 38 },
         }),
       /Skill count mismatch/i,
     );

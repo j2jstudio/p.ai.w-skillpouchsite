@@ -98,7 +98,7 @@ export function renderLlmsTxt({ data }) {
 
   const content = `# SkillPouch
 
-> SkillPouch publishes a curated, evidence-backed Agent skills directory organized across 8 directories, 16 three-stage workflow tasks, and 34 deduplicated selected skills. Pages document stage fit rationale, pinned git revisions, SPDX licenses, and known limitations. This website is not a popularity ranking, does not issue official Agent compatibility certifications, and is separate from the SkillPouch desktop application's signed configuration endpoint.
+> SkillPouch publishes a curated, evidence-backed Agent skills directory organized across 8 directories, 16 three-stage workflow tasks, and ${skills.length} deduplicated selected skills. Pages document stage fit rationale, pinned git revisions, SPDX licenses, and known limitations. This website is not a popularity ranking, does not issue official Agent compatibility certifications, and is separate from the SkillPouch desktop application's signed configuration endpoint.
 
 ## Entry Points
 
@@ -113,7 +113,7 @@ export function renderLlmsTxt({ data }) {
 
 ${dirLines}
 
-## Selected Agent Skills (34)
+## Selected Agent Skills (${skills.length})
 
 ${skillLines}
 `;
