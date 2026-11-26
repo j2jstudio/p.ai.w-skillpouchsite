@@ -7,7 +7,7 @@
   "skipToContent": "跳到正文",
   "header": {
     "metaCatalogue": "精选目录",
-    "metaRelease": "2026.10 发布集",
+    "metaRelease": "2026.11 发布集",
     "navAriaLabel": "八大目录主导航",
     "mobileMenuLabel": "目录",
     "langSwitchLabel": "English",
@@ -31,7 +31,7 @@
   "home": {
     "title": "SkillPouch 精选 Agent Skills",
     "seoTitle": "SkillPouch 精选 Agent Skills · 策展目录与证据站",
-    "seoDescription": "浏览 SkillPouch 已确认的 8 大目录、16 项任务与 34 个精选 Agent Skills，核验阶段适配理由、上游来源与已知限制。",
+    "seoDescription": "浏览 SkillPouch 已确认的 8 大目录、16 项任务与 38 个精选 Agent Skills，核验阶段适配理由、上游来源与已知限制。",
     "lede": "仅收录经策展复核确认的精选技能；按八大目录与工作任务分段浏览，逐项核验适配理由、公开来源与已知限制。本站不做流行度榜单，也不做官方 Agent 认证。",
     "directoriesHeading": "按工作目录浏览",
     "directoriesCountUnit": "项任务",
@@ -39,7 +39,7 @@
     "searchHeading": "快速检索目录、任务或技能",
     "searchLabel": "搜索目录、任务或技能标题",
     "searchPlaceholder": "搜索目录、任务或技能……",
-    "searchStatusDefault": "输入关键词可筛选 8 个目录、16 项任务与 34 个精选技能。",
+    "searchStatusDefault": "输入关键词可筛选 8 个目录、16 项任务与 38 个精选技能。",
     "searchStatusMatched": "找到 {count} 项匹配结果",
     "searchEmpty": "未找到匹配项。请尝试其他目录、任务或技能名称。",
     "searchKindDirectory": "目录",
@@ -47,7 +47,7 @@
     "searchKindSkill": "技能",
     "curationHeading": "策展口径与许可声明",
     "curationPoints": [
-      "同源策展：全站仅展示已确认准入的精选集合（8 目录 / 16 任务 / 34 去重技能），不手工维护第二套名单。",
+      "同源策展：全站仅展示已确认准入的精选集合（8 目录 / 16 任务 / 38 去重技能），不手工维护第二套名单。",
       "证据可核验：每个技能页均公开阶段适配说明、精确源码提交版本与上游仓库入口。",
       "边界诚实：本站非官方 Agent 兼容认证；许可证义务（含 CC-BY-SA 署名与相同方式共享要求）以上游仓库声明为准。"
     ]
@@ -223,7 +223,7 @@
             "id": "service-scope",
             "heading": "1. 服务性质与定位边界",
             "paragraphs": [
-              "本站面向开发者、产品团队与研究人员提供经人工策展复核的 Agent Skills 目录与证据查阅服务（覆盖 8 大目录、16 项三阶段任务及 34 个精选技能）。"
+              "本站面向开发者、产品团队与研究人员提供经人工策展复核的 Agent Skills 目录与证据查阅服务（覆盖 8 大目录、16 项三阶段任务及 38 个精选技能）。"
             ],
             "bullets": [
               "非流行度榜单：本站仅呈现阶段适配理由、上游来源与已知限制，不按下载量或星标数进行商业排名。",

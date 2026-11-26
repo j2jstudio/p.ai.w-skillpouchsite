@@ -7,7 +7,7 @@
   "skipToContent": "Skip to content",
   "header": {
     "metaCatalogue": "Curated directories",
-    "metaRelease": "2026.10 release",
+    "metaRelease": "2026.11 release",
     "navAriaLabel": "Primary directory navigation",
     "mobileMenuLabel": "Directories",
     "langSwitchLabel": "简体中文",
@@ -30,7 +30,7 @@
   "home": {
     "title": "SkillPouch curated Agent skills",
     "seoTitle": "SkillPouch curated Agent skills · Directory & evidence",
-    "seoDescription": "Browse 8 curated directories, 16 tasks, and 34 selected Agent skills in SkillPouch with stage fit rationale, upstream sources, and known limitations.",
+    "seoDescription": "Browse 8 curated directories, 16 tasks, and 38 selected Agent skills in SkillPouch with stage fit rationale, upstream sources, and known limitations.",
     "lede": "Only reviewed and selected skills enter this catalogue. Browse by directory and three-stage workflow task to inspect stage fit rationale, pinned upstream commits, and known limitations. Not a popularity leaderboard and not an official Agent certification.",
     "directoriesHeading": "Browse by directory",
     "directoriesCountUnit": "tasks",
@@ -38,7 +38,7 @@
     "searchHeading": "Filter directories, tasks, or skills",
     "searchLabel": "Search directory, task, or skill titles",
     "searchPlaceholder": "Search directories, tasks, or skills...",
-    "searchStatusDefault": "Type a keyword to filter across 8 directories, 16 tasks, and 34 curated skills.",
+    "searchStatusDefault": "Type a keyword to filter across 8 directories, 16 tasks, and 38 curated skills.",
     "searchStatusMatched": "{count} matching items",
     "searchEmpty": "No matches found. Try another directory, task, or skill title.",
     "searchKindDirectory": "Directory",
@@ -46,7 +46,7 @@
     "searchKindSkill": "Skill",
     "curationHeading": "Curation scope and license notice",
     "curationPoints": [
-      "Single curated source: every page is generated from the confirmed release set (8 directories, 16 tasks, 34 deduplicated skills) without a second manual list.",
+      "Single curated source: every page is generated from the confirmed release set (8 directories, 16 tasks, 38 deduplicated skills) without a second manual list.",
       "Verifiable evidence: each skill page publishes stage-specific rationale, pinned git revision, and direct upstream repository links.",
       "Explicit boundaries: SkillPouch does not issue official Agent certifications; license obligations (including CC-BY-SA attribution and share-alike terms) follow upstream declarations."
     ]
@@ -222,7 +222,7 @@
             "id": "service-scope",
             "heading": "1. Service Scope & Positioning",
             "paragraphs": [
-              "This website provides a human-reviewed reference catalogue of Agent skills organized across 8 directories, 16 three-stage workflow tasks, and 34 selected skills."
+              "This website provides a human-reviewed reference catalogue of Agent skills organized across 8 directories, 16 three-stage workflow tasks, and 38 selected skills."
             ],
             "bullets": [
               "Not a popularity leaderboard: Pages document stage fit rationale, pinned upstream commits, and known limitations rather than download or star rankings.",
